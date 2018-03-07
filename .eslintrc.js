@@ -13,5 +13,7 @@ module.exports = {
         "consistent-return": [0],
         "react/prefer-stateless-function": [0],
         "no-use-before-define": 0,
+        "no-irregular-whitespace": 0,
+        "arrow-body-style": 0,
     }
 };
