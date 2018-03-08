@@ -15,5 +15,8 @@ module.exports = {
         "no-use-before-define": 0,
         "no-irregular-whitespace": 0,
         "arrow-body-style": 0,
+        "import/prefer-default-export": [0],
+        "react/no-did-mount-set-state": [0],
+        "class-methods-use-this": [0],
     }
 };
