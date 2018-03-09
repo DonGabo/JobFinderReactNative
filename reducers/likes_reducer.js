@@ -4,7 +4,6 @@ import { REHYDRATE } from 'redux-persist/es/constants';
 import { LIKE_JOB } from '../actions/types';
 
 export default function (state = [], action) {
-  console.log('action', action);
   switch (action.type) {
     case REHYDRATE:
       if (action.payload) {
